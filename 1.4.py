@@ -22,7 +22,7 @@ def evaluatePerformance():
     '''
 
     # Load Data
-    filename = '/content/SPECTF.train'
+    filename = '/content/SPECTF.dat'
     data = np.loadtxt(filename, delimiter=',')
     X = data[:, 1:]
     y = np.array([data[:, 0]]).T
